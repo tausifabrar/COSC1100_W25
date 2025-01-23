@@ -43,12 +43,12 @@ if test_value.replace('.', '', 1).isdecimal():
     # check if the second part of the input is a valid unit of measure
     if temperature_unit.upper() == 'C':
         # convert the temperature value to F unit of measure
-        converted_temperature = round((float(temperature_value) * 9/5) + 32, 2)
+        converted_temperature = round((float(temperature_value) * 9/5) + 32,2)
         converted_unit = 'F'
 
     elif temperature_unit.upper() == 'F':
         # 7. convert the temperature value to C unit of measure
-        converted_temperature = round((float(temperature_value) - 32) * 5/9, 2)
+        converted_temperature = round((float(temperature_value) - 32) * 5/9,2)
         converted_unit = 'C'
 
     else:
