@@ -57,6 +57,7 @@ DAYS_IN_WEEK = 7  # correct - CONSTANT
 # formula for converting Celsius to Fahrenheit
 celsius = -14
 fahrenheit = (9 / 5) * celsius + 32
+fahrenheit = round( (9 / 5) * celsius + 32, 2)
 
 # x squared
 x = 5
